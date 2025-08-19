@@ -10,7 +10,7 @@ dotenv.config();
 connectDB();
 const allowedOrigins = [
   "http://localhost:3000", // local frontend
-  "https://doctor-appointment-system-frontend-tau.vercel.app" 
+  "https://customer-feedback-system-frontend-y.vercel.app/register" 
 ];
 const app = express();
 app.use(cors({
